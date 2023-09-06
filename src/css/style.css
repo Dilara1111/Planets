@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/1671649797_kalix-club-p-zvezdnoe-nebo-fon-oboi-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sun{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fdd835;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #fdd835;
+}
+.merkury{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    animation:rotate-merkury 5s linear infinite;
+}
+.venus{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color:aliceblue;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    animation:rotate-venus 6s linear infinite;
+
+}
+.earth{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    animation:rotate-earth 7s linear infinite;
+
+}
+.mars{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color:orange;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    animation:rotate-mars 8s linear infinite;
+
+}
+.jupiter{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    animation:rotate-jupiter 10s linear infinite;
+
+}
+.saturn{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:#fdd8;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    animation:rotate-saturn 11s linear infinite;
+
+}
+.uranus{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    animation:rotate-uranus 12s linear infinite;
+
+}
+.neptune{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(157, 157, 179);
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    animation:rotate-neptune 13s linear infinite;
+}
+@keyframes rotate-merkury{
+    0%{
+        transform: rotate(0deg) translateX(70px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(70px);
+    }
+}
+@keyframes rotate-venus{
+    0%{
+        transform: rotate(0deg) translateX(100px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(100px);
+    }
+}
+@keyframes rotate-earth{
+    0%{
+        transform: rotate(0deg) translateX(150px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(150px);
+    }
+}
+@keyframes rotate-mars{
+    0%{
+        transform: rotate(0deg) translateX(170px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(170px);
+    }
+}@keyframes rotate-jupiter{
+    0%{
+        transform: rotate(0deg) translateX(200px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(200px);
+    }
+}@keyframes rotate-saturn{
+    0%{
+        transform: rotate(0deg) translateX(250px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(250px);
+    }
+}@keyframes rotate-uranus{
+    0%{
+        transform: rotate(0deg) translateX(300px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(300px);
+        
+    }
+}
+@keyframes rotate-neptune{
+    0%{
+        transform: rotate(0deg) translateX(400px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(400px);
+    }
+}
